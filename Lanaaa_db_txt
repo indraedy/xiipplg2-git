@@ -1,0 +1,24 @@
+ #User_db
+-user
+*nama [var] [24]
+ password [var] [255]
+ ID_USER [Var] [11] [p]
+
+ #nama_produc_db
+-barang
+*ID_BARANG [Int] [11] [p]
+* nama [var] [255]
+*harga_barang [var] [255]
+*diskon [var] [255]
+
+#besaran_diskon_db
+-diskon
+*50 [CONT]
+*40 [CONT]
+*30 [CONT]
+*20 [CONT]
+*10 [CONT]
+
+(rumus hitung diskon)
+harga_barang X %(besaran_diskon) harga_setelah_diskon
+1000000 X % []=1000000
