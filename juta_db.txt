@@ -1,0 +1,24 @@
+#User_db
+-User
+*NAMA [Var][24]
+*PASSWORD [Var][225]
+ID_USER [Var][11][🔑]
+
+#Nama_Produc_db
+-Barang
+*ID_BARANG [int][11][🔑]
+*NAMA [Var][255]
+*HARGA_BARANG [Var][225]
+*DISKON [Var][225]
+
+#Besaran_Diskon_db
+-diskon
+*50% [CONT]
+*40% [CONT]
+*30% [CONT]
+*20% [CONT]
+*10% [CONT]
+
+(Rumus Hitung Diskon)
+|Harga_barang x %[Besaran_diskon] Harga_Setelah_diskon|
+|$00000 x %[] = $000000                               |
