@@ -1,0 +1,29 @@
+Nama table:Produk
+db_diskonpenjualan
+    NAMA          Jenis  pnjng/nilai   indeks
+-table_detailpenjualan
+ *id_barang       -int      -11        -pk
+ - Nama_barang     -varchar  -255
+ -jumlah_barang   -int      -11
+ -Harga_barang    -int      -11
+ -Harga_diskon    -int      -11
+
+-table_pelanggan
+ *id_pelanggan    -int       -11        -pk
+ -Nama_pelanggan  -varch     -255
+ -nomor_pelanggan -int       -11
+
+-table_penjualan
+ *id_penjualan      -int     -11        -pk
+ -tanggal_penjualan -int     -11
+ -Nama_barang       -varchar -255
+ -Harga_barang      -int     -11
+
+-table_kasirproduk
+ *id_produk        -int      -11        -pk
+ -nama_produk      -varchar  -255
+ -harga_produk     -int      -11
+ -harga_diskon     -int      -11
+-harga_setelahdiskon-int     -11
+ 
+ 
