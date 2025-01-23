@@ -18,3 +18,7 @@ ID_USER [Var][11][🔑]
 *30% [CONT]
 *20% [CONT]
 *10% [CONT]
+
+(Rumus Hitung Diskon)
+|Harga_barang x %[Besaran_diskon] Harga_Setelah_diskon|
+|$00000 x %[] = $000000                               |
