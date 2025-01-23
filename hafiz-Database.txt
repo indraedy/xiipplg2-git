@@ -1,0 +1,28 @@
+Ini Adalah Alur Bertema Untuk APK Bertema Diskon 
+
+- Membuat Database Diskon 
+
+- Membuat Tabel User
+ - User_db
+   *ID_USER [int] [11] [pk]
+   *USERNAME [Var] [255]
+   *PASSWORD [Var] [255]
+
+- Membuat Tabel Produk
+ - Produk_db
+   *ID_BARANG [Int] [11] [pk]
+   *NAMA_BARANG [Var] [255]
+   *HARGA_BARANG [Var] [255]
+   *DISKON [Var] [255]
+
+ - Besaran_Diskon_db
+   - Diskon
+     *50 [CONT]
+     *40 [CONT]
+     *30 [CONT]
+     *20 [CONT]
+     *10 [CONT]
+
+ (Rumus Hitung Diskon)
+ Harga_Barang x %(Besaran_Diskon) Harga_Setelah_Diskon
+ $000000 x % [] = $000000
