@@ -1,0 +1,25 @@
+ini adalah alur database untuk apk bertema diskon
+
+-pelanggan
+ *id_pelanggan-int-11-pk
+ *nama_pelanggan-varchar-255
+ *no_telepon-varchar-255
+
+-produk
+ *id_produk-int-11-pk
+ *nama_produk-varchar-255
+ *harga_produk-decimal-10,2
+
+-diskon
+ *id_diskon-int-11-pk
+ *id_produk-int-11-fk
+ *diskon_produk-decimal-5,2
+
+-transaksi
+ *id_transaksi-int-11-pk
+ *id_produk-int-11-fk
+ *jumlah-int-11
+ *total_harga-decimal-10,2
+
+(rules:diskon tidak boleh >100% dan harga produk tidak boleh 0)
+rumus perhitungan total harga setelah diskon:total_harga = harga - (harga * (diskon / 100)).
